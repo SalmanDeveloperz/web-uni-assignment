@@ -1,0 +1,25 @@
+body{
+    font-family:monospace
+}
+h1{
+    text-align: center;
+    color: rgb(85, 85, 201);
+    
+}
+h3{
+    text-align: center;
+}
+.image img{
+    display: block; /* Make the image a block element */
+    margin-left: auto; /* Auto margin to center */
+    margin-right: auto; /* Auto margin to center */
+    width: 35%; /* Set the width to 60% to allow 20% margins on both sides */
+    height: 35%; /* Maintain aspect ratio */
+    
+}
+
+.provinces{
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: column; */
+}

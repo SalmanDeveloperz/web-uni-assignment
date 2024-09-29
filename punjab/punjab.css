@@ -1,0 +1,14 @@
+.images img{
+    
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+img{
+    display: block; /* Make the image a block element */
+    margin-left: auto; /* Auto margin to center */
+    margin-right: auto; /* Auto margin to center */
+    width: 35%; /* Set the width to 60% to allow 20% margins on both sides */
+    height: 35%; /* Maintain aspect ratio */
+}
